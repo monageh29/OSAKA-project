@@ -1,0 +1,366 @@
+
+
+
+/* ..................................................خط المشروع كله ...................................... */
+* {
+  font-family: 'Questrial', sans-serif;
+
+  }
+  
+  
+/*.................................................. start home................................................. */
+  
+  
+#btn-up{
+  position: fixed;
+  bottom: 20px;
+  right:20px;
+  z-index:999;
+  display: none;
+} 
+
+  .optionsSide{
+    padding: 20px;
+  }
+  
+  .options{
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left:-320px;
+    z-index: 99999999;
+    align-items: flex-start;
+  }
+  
+  
+  #typed{
+    font-size: 5rem;
+  }
+  .options i{
+    border: 1px solid #17a2b8;
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .options ul{
+    display: flex;
+    list-style-type: none;
+  }
+  .options li{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .options img{
+    width: 40px;
+    cursor: pointer;
+  }
+  /*....................................................... nanbar ............................................... */
+  .navbar{
+    transition: all 1s;
+  }
+  
+  
+  .navbar a {
+    color: white;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .navbar a:hover {
+    color: #ff206e;
+  }
+  /*............................................... end navbar..................................................... */
+  .home {
+    height: 100vh;
+    background-image: url(../imagess/bg.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    transition: all 1s;
+
+  
+  }
+  .home-font{
+    color: #f4f4f4 !important;
+  }
+ .home i {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #fff;
+  }
+  .social-icons {
+    position: absolute;
+    bottom: 10px;
+  }
+  .social-icons i:hover{
+    background-color: #ff206e;
+    color: #fff;
+  }
+  .home h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  .home .view {
+    color: #ff206e;
+  }
+  .heading h4 {
+    font-size: 2.5rem;
+    position: absolute;
+    letter-spacing: 10px;
+  }
+  /*............................................. end home ...................................................*/
+
+
+/* ................................................start about................................................ */
+  .about .creative {
+    color: #ff206e;
+    font-weight: 700;
+  }
+  
+  .heading {
+    position: relative;
+  }
+  .heading h2 {
+    font-size: 5rem;
+    color: rgba(0, 0, 0, 0.1);
+    letter-spacing: 10px;
+  }
+  .about {
+    background-image: url(../imagess/light_dot.jpg);
+  }
+  .about .mail {
+    font-weight: 700;
+  }
+  .mail span {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /*.................................................... end about.................................................... */
+
+  /*.................................................. start blog..................................................... */
+  .blog span {
+    color: #ff206e;
+  }
+  /*............................................ icon جمب الصوره ......................................................*/
+  .mybook {
+    position: absolute;
+    right: 10px;
+    top: -25px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 3px 20px rgba(0, 0, 0, 0.15);
+  }
+  .blog {
+    background-image: url(../imagess/light_dot.jpg);
+  }
+  .blog .item {
+    background-color: #fff;
+  }
+  #blog .item img {
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  
+  #blog .item img:hover {
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  #blog .icon {
+font-size: 30px;
+color: #ff206e !important;
+   
+  }
+  #blog i{
+    color: black;
+  }
+  /*........................................................ end blog................................................ */
+
+
+
+/*................................................. start service.................................................  */
+
+
+#service i{
+  font-size: 35px;
+color: #ff206e !important;
+-webkit-transition: all 1s;
+-o-transition: all 1s;
+transition: all 1s;
+}
+
+#service i:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+      transform: scale(1.1);
+color: #17a2b8 !important;
+}
+
+
+
+
+
+
+/*................................................. end service.................................................  */
+
+  /*................................................. start testmonial................................................. */
+  
+
+.carousel-inner h5,h6,p{
+  color:  black ;
+  font-weight: bolder;
+}
+  #testmonial img {
+    width: 90px;
+    border-radius: 50%;
+    -webkit-transform: translateY(-45px);
+        -ms-transform: translateY(-45px);
+            transform: translateY(-45px);
+    border: 1px solid #fff;
+    -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+  }
+  #testmonial .item {
+    border: 2px solid #f4f4f4;
+  }
+
+
+   #testmonial .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+  } 
+  
+  #testmonial .carousel-inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+  /*................................................. end testmonial................................................. */
+
+
+
+   /* .............................................loading   كود جاهز................................................*/
+ #loading{
+    width:100%;
+    height: 100vh;
+    background-color: #ff206e;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 9999999999;
+  }
+  
+  body{
+    overflow: hidden;
+  }
+  
+  .spinner {
+    margin: 100px auto;
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+  
+  .cube1, .cube2 {
+    background-color: #fff;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+    animation: sk-cubemove 1.8s infinite ease-in-out;
+  }
+  
+  .cube2 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+  }
+  
+  @-webkit-keyframes sk-cubemove {
+    25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
+    50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
+    75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
+    100% { -webkit-transform: rotate(-360deg) }
+  }
+  
+  @keyframes sk-cubemove {
+    25% { 
+      transform: translateX(42px) rotate(-90deg) scale(0.5);
+      -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+    } 50% { 
+      transform: translateX(42px) translateY(42px) rotate(-179deg);
+      -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+    } 50.1% { 
+      transform: translateX(42px) translateY(42px) rotate(-180deg);
+      -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+    } 75% { 
+      transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+      -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+    } 100% { 
+      transform: rotate(-360deg);
+      -webkit-transform: rotate(-360deg);
+    }
+  }
+/* .......................................................start footer.................................... */
+.footer{
+  width: 100%;
+height: 25vh;
+background-color:#ff206e;
+  text-align: center;
+  color: #fff;
+  
+}
+.footer p{
+  padding-top: 30px;
+  font-size: 18px;
+}
+.footer p span{
+  
+  font-size: 20px;
+  transition: all 1s;
+}
+.footer p span:hover{
+  color: #ffc107;
+cursor: pointer;
+}
+.footer h2{
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+.footer h2 span{
+  color: #fff;
+  transition: all 1s;
+
+}
+.footer h2 span:hover{
+  color: black;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+/*............................................. end footer............................................ */
